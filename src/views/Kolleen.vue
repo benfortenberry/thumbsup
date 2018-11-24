@@ -49,7 +49,8 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-danger">
               <p class="title">Favorite Song</p>
-              <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=9zOKBvHNWus" target="_blank">Birdhouse in Your Soul</a></p>
+              <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=9zOKBvHNWus" 
+              target="_blank">Birdhouse in Your Soul</a> <br />by They Might Be Giants</p>
 
             </article>
           </div>
@@ -149,6 +150,5 @@ export default {
 
 .button {
   color: #fff;
-  text-decoration: none;
 }
 </style>

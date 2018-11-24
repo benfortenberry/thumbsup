@@ -41,7 +41,8 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-danger">
               <p class="title">Favorite Song</p>
-              <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=Ott6NJ_XxdY" target="_blank">U Name It</a></p>
+              <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=Ott6NJ_XxdY" 
+              target="_blank">U Name It</a><br />by Shirley Caesar</p>
 
             </article>
           </div>
@@ -142,6 +143,5 @@ export default {
 
 .button {
   color: #fff;
-  text-decoration: none;
 }
 </style>

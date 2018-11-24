@@ -49,7 +49,9 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-danger">
               <p class="title">Favorite Song</p>
-              <p class="subtitle"><a style="height:100%" class="button is-medium is-text" href="https://www.youtube.com/watch?v=AuA0HQ4Zobc" target="_blank">Epitaph</a></p>
+              <p class="subtitle"><a style="height:100%" class="button is-medium is-text" 
+              href="https://www.youtube.com/watch?v=eeoZE_NrosY" target="_blank">The Minotaur's Song</a>
+              <br />by The Incredible String Band</p>
 
             </article>
           </div>
@@ -158,6 +160,5 @@
 
   .button {
       color: #fff;
-      text-decoration: none;
   }
 </style>

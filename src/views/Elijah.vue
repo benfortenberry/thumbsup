@@ -43,7 +43,8 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-danger">
               <p class="title">Favorite Song</p>
-              <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=vQObWW06VAM" target="_blank">Apache (Jump On It)</a> </p>
+              <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=vQObWW06VAM" 
+              target="_blank">Apache (Jump On It)</a><br /> by Sugarhill Gang </p>
 
             </article>
           </div>
@@ -145,6 +146,5 @@ export default {
 
 .button {
   color: #fff;
-  text-decoration: none;
 }
 </style>
