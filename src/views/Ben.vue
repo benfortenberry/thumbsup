@@ -49,7 +49,13 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-danger">
               <p class="title">Favorite Song</p>
+<<<<<<< HEAD
               <p class="subtitle"><a style="height:100%" class="button is-medium is-text" href="https://www.youtube.com/watch?v=TQtEFdyhgdE" target="_blank">Journey in Satchidananda</a> <br /> by Alice Coltrane</p>
+=======
+              <p class="subtitle"><a style="height:100%" class="button is-medium is-text" 
+              href="https://www.youtube.com/watch?v=eeoZE_NrosY" target="_blank">The Minotaur's Song</a>
+              <br />by The Incredible String Band</p>
+>>>>>>> 81345a7acf6a0e836f58130f6b4f53f342d7d4b4
 
             </article>
           </div>
@@ -157,7 +163,11 @@
   }
 
   .button {
+<<<<<<< HEAD
     color: #fff;
     text-decoration: none;
+=======
+      color: #fff;
+>>>>>>> 81345a7acf6a0e836f58130f6b4f53f342d7d4b4
   }
 </style>

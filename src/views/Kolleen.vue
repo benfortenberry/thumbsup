@@ -49,7 +49,12 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-danger">
               <p class="title">Favorite Song</p>
+<<<<<<< HEAD
               <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=9zOKBvHNWus" target="_blank">Birdhouse in Your Soul</a><br /> by They Might Be Giants</p>
+=======
+              <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=9zOKBvHNWus" 
+              target="_blank">Birdhouse in Your Soul</a> <br />by They Might Be Giants</p>
+>>>>>>> 81345a7acf6a0e836f58130f6b4f53f342d7d4b4
 
             </article>
           </div>
@@ -110,6 +115,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+<<<<<<< HEAD
   @import url("https://fonts.googleapis.com/css?family=Sansita");
   .hello {
     padding-top: 17px;
@@ -151,4 +157,46 @@
     color: #fff;
     text-decoration: none;
   }
+=======
+@import url("https://fonts.googleapis.com/css?family=Sansita");
+.hello {
+  padding-top: 17px;
+  background-color: #262626 !important;
+  height: 100vh;
+  min-height: 100vh;
+
+  text-align: center;
+}
+.hero-body {
+  background-color: #8b4b62 !important;
+}
+.title {
+  color: #fff;
+  font-family: "Sansita", cursive;
+}
+
+.is-success {
+  background-color: #8b4b62;
+}
+
+.is-danger {
+  background-color: #fcbc80;
+}
+
+.is-warning {
+  background-color: #ea9674;
+}
+
+.is-primary {
+  background-color: #bb6f6b;
+}
+
+.is-info {
+  background-color: #f7e29c;
+}
+
+.button {
+  color: #fff;
+}
+>>>>>>> 81345a7acf6a0e836f58130f6b4f53f342d7d4b4
 </style>
