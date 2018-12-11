@@ -49,7 +49,7 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-danger">
               <p class="title">Favorite Song</p>
-              <p class="subtitle"><a style="height:100%" class="button is-medium is-text" href="https://www.youtube.com/watch?v=AuA0HQ4Zobc" target="_blank">Epitaph</a></p>
+              <p class="subtitle"><a style="height:100%" class="button is-medium is-text" href="https://www.youtube.com/watch?v=TQtEFdyhgdE" target="_blank">Journey in Satchidananda</a> <br /> by Alice Coltrane</p>
 
             </article>
           </div>
@@ -107,57 +107,57 @@
 
 <script>
   export default {
-    name: 'Ben',
+    name: "Ben",
 
     props: {
       msg: String
     }
-  }
+  };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  @import url('https://fonts.googleapis.com/css?family=Russo+One');
+  @import url("https://fonts.googleapis.com/css?family=Russo+One");
 
   .hello {
-      padding-top: 17px;
-      background-color: #262626 !important;
-      height: 100vh;
-      min-height: 100vh;
+    padding-top: 17px;
+    background-color: #262626 !important;
+    height: 100vh;
+    min-height: 100vh;
 
-      text-align: center;
+    text-align: center;
   }
   .hero-body {
-      background-color: #282f3f !important;
+    background-color: #282f3f !important;
   }
   .title {
-      color: #fff;
-      font-family: 'Russo One', cursive;
-      /* letter-spacing: 3px; */
+    color: #fff;
+    font-family: "Russo One", cursive;
+    /* letter-spacing: 3px; */
   }
 
   .is-success {
-      background-color: #282f3f;
+    background-color: #282f3f;
   }
 
   .is-danger {
-      background-color: #b7a28f;
+    background-color: #b7a28f;
   }
 
   .is-warning {
-      background-color: #7a6f73;
+    background-color: #7a6f73;
   }
 
   .is-primary {
-      background-color: #454755;
+    background-color: #454755;
   }
 
   .is-info {
-      background-color: #fee6b8;
+    background-color: #fee6b8;
   }
 
   .button {
-      color: #fff;
-      text-decoration: none;
+    color: #fff;
+    text-decoration: none;
   }
 </style>

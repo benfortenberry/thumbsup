@@ -41,7 +41,7 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-danger">
               <p class="title">Favorite Song</p>
-              <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=Ott6NJ_XxdY" target="_blank">U Name It</a></p>
+              <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=Ott6NJ_XxdY" target="_blank">U Name It</a><br /> by Shirley Caesar</p>
 
             </article>
           </div>
@@ -92,56 +92,56 @@
 </template>
 
 <script>
-export default {
-  name: 'Ivan',
-  props: {
-    msg: String
-  }
-}
+  export default {
+    name: "Ivan",
+    props: {
+      msg: String
+    }
+  };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import url("https://fonts.googleapis.com/css?family=Bungee+Inline");
+  @import url("https://fonts.googleapis.com/css?family=Bungee+Inline");
 
-.hello {
-  padding-top: 17px;
-  background-color: #262626 !important;
-  height: 100vh;
-  min-height: 100vh;
+  .hello {
+    padding-top: 17px;
+    background-color: #262626 !important;
+    height: 100vh;
+    min-height: 100vh;
 
-  text-align: center;
-}
-.hero-body {
-  background-color: #3e6477 !important;
-}
-.title {
-  color: #fff;
-  font-family: "Bungee Inline", cursive;
-}
+    text-align: center;
+  }
+  .hero-body {
+    background-color: #3e6477 !important;
+  }
+  .title {
+    color: #fff;
+    font-family: "Bungee Inline", cursive;
+  }
 
-.is-success {
-  background-color: #579c87;
-}
+  .is-success {
+    background-color: #579c87;
+  }
 
-.is-danger {
-  background-color: #a1c181;
-}
+  .is-danger {
+    background-color: #a1c181;
+  }
 
-.is-warning {
-  background-color: #3e6477;
-}
+  .is-warning {
+    background-color: #3e6477;
+  }
 
-.is-primary {
-  background-color: #fe7f2d;
-}
+  .is-primary {
+    background-color: #fe7f2d;
+  }
 
-.is-info {
-  background-color: #fcca46;
-}
+  .is-info {
+    background-color: #fcca46;
+  }
 
-.button {
-  color: #fff;
-  text-decoration: none;
-}
+  .button {
+    color: #fff;
+    text-decoration: none;
+  }
 </style>

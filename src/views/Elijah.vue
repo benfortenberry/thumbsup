@@ -43,7 +43,7 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-danger">
               <p class="title">Favorite Song</p>
-              <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=vQObWW06VAM" target="_blank">Apache (Jump On It)</a> </p>
+              <p class="subtitle"><a class="button is-medium is-text" href="https://www.youtube.com/watch?v=vQObWW06VAM" target="_blank">Apache (Jump On It)</a> <br />by The Sugarhill Gang</p>
 
             </article>
           </div>
@@ -94,57 +94,57 @@
 </template>
 
 <script>
-export default {
-  name: 'Elijah',
-  props: {
-    msg: String
-  }
-}
+  export default {
+    name: "Elijah",
+    props: {
+      msg: String
+    }
+  };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+  @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
 
-.hello {
-  padding-top: 17px;
-  background-color: #262626 !important;
-  height: 100vh;
-  min-height: 100vh;
+  .hello {
+    padding-top: 17px;
+    background-color: #262626 !important;
+    height: 100vh;
+    min-height: 100vh;
 
-  text-align: center;
-}
-.hero-body {
-  background-color: #b61173 !important;
-}
-.title {
-  color: #fff;
-  font-family: "Luckiest Guy", cursive;
-  letter-spacing: 3px;
-}
+    text-align: center;
+  }
+  .hero-body {
+    background-color: #b61173 !important;
+  }
+  .title {
+    color: #fff;
+    font-family: "Luckiest Guy", cursive;
+    letter-spacing: 3px;
+  }
 
-.is-success {
-  background-color: #ff9800;
-}
+  .is-success {
+    background-color: #ff9800;
+  }
 
-.is-danger {
-  background-color: #ff8100;
-}
+  .is-danger {
+    background-color: #ff8100;
+  }
 
-.is-warning {
-  background-color: #ef6b30;
-}
+  .is-warning {
+    background-color: #ef6b30;
+  }
 
-.is-primary {
-  background-color: #e0335e;
-}
+  .is-primary {
+    background-color: #e0335e;
+  }
 
-.is-info {
-  background-color: #b61173;
-}
+  .is-info {
+    background-color: #b61173;
+  }
 
-.button {
-  color: #fff;
-  text-decoration: none;
-}
+  .button {
+    color: #fff;
+    text-decoration: none;
+  }
 </style>

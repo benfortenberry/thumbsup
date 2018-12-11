@@ -39,26 +39,46 @@
                     </div>
                   </div>
 
-                  <!-- <p class="control">
-                    <a class="button ">
-                      Everyday Holidays
-                    </a>
-                  </p> -->
-                  <!-- <p class="control">
-                    <a class="button" href='http://lastdesires.com'>
-                      Last Desires
-                    </a>
-                  </p>
-                  <p class="control">
-                    <a class="button ">
-                      Quiz-O-Matic
-                    </a>
-                  </p> -->
-                  <!-- <p class="control">
-                    <a class="button ">
-                      Robo The Fan
-                    </a>
-                  </p> -->
+                  
+
+               
+                </div>
+              </div>
+
+                   <div class="level-item">
+                <div class="field is-grouped">
+                  <div class='control'>
+
+                    <div class="dropdown " :class="{'is-active': active2}" @click='active2 = !active2'>
+                      <div class="dropdown-trigger">
+                        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                          <span>Last Desires</span>
+                          <span class="icon is-small">
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                        <div class="dropdown-content">
+                          <!-- <a target='_blank' href="https://itunes.apple.com/us/app/everyday-holidays/id1410776446?ls=1&mt=8" class="dropdown-item">
+                            <i class="fa fa-apple" aria-hidden="true"></i> iOS
+                          </a> -->
+                          <a target='_blank' href='https://play.google.com/store/apps/details?id=com.lastdesires.thumbsupsolutions' class="dropdown-item">
+                            <i class="fa fa-android" aria-hidden="true"></i> Android
+                          </a>
+
+                           <a target='_blank' href="http://lastdesires.com/app/" class="dropdown-item">
+                            <i class="fa fa-globe" aria-hidden="true"></i> Web
+                          </a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+
+               
                 </div>
               </div>
             </div>
@@ -82,7 +102,9 @@ export default {
   },
   data() {
     return {
-      active: false
+      active: false,
+      active2: false,
+      active3: false
     }
   }
 }
