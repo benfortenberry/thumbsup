@@ -6,7 +6,6 @@
                     <h1 class="title">
                         Ben Fortenberry
                     </h1>
-
                 </div>
             </div>
         </section>
