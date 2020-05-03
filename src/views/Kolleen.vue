@@ -19,13 +19,11 @@
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
                             <article class="tile is-child notification is-primary">
-                                <p class="title">Bio</p>
-                                <p class="subtitle ">
+                                <p class="subtitle left ">
 
-                                    Kolleen lives in New Orleans where she works as a business analyst. She loves crochet, knitting and graphic design.
+                                    Kolleen lives in New Orleans with her husband and three boys where she works as a business analyst. She loves crochet, knitting and graphic design.
 
                                 </p>
-                                <!-- <p class="subtitle left"> He runs super-fast and never loses a fight with his brother.</p> -->
 
                             </article>
                             <article class="tile is-child notification is-warning">
@@ -49,7 +47,7 @@
                             <article class="tile is-child notification is-info">
 
                                 <figure class="image">
-                                    <img src="../assets/yarn.jpg">
+                                    <img src="../assets/yarn2.jpg">
                                 </figure>
                             </article>
                         </div>
@@ -147,7 +145,7 @@
         text-align: center;
     }
     .hero-body {
-        background-color: #8b4b62 !important;
+        background-color: #C91E12 !important;
     }
     .title {
         color: #fff;
@@ -155,23 +153,23 @@
     }
 
     .is-success {
-        background-color: #8b4b62;
+        background-color: #7A3C29;
     }
 
     .is-danger {
-        background-color: #fcbc80;
+        background-color: #555;
     }
 
     .is-warning {
-        background-color: #ea9674;
+        background-color: #719AB3;
     }
 
     .is-primary {
-        background-color: #bb6f6b;
+        background-color: #262626;
     }
 
     .is-info {
-        background-color: #f7e29c;
+        background-color: #D7BA91;
     }
 
     .button {

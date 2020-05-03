@@ -19,27 +19,24 @@
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
                             <article class="tile is-child notification is-primary">
-                                <p class="title">Bio</p>
-                                <p class="subtitle "> Elijah is a 4 year old boy who loves cars. He also loves trucks. And cars. Also cars. His favorite colors
-                                    are black and pink. Paw Patrol is good too.</p>
-                                <!-- <p class="subtitle left">Ivan is a nine year old boy who loves Mario Kart, fruit snacks and the song "Fast Cars" by the Buzzcocks.</p> -->
-                                <!-- <p class="subtitle left"> He runs super-fast and never loses a fight with his brother.</p> -->
+                                <p class="subtitle left"> Elijah is a 6 year old boy who loves video games and board games. His favorite colors
+                                    are red and aqua. Tig and Leo is good too. </p>
 
                             </article>
                             <article class="tile is-child notification is-warning">
                                 <p class="title">Favorite Pokemon</p>
                                 <p class="subtitle"><a
                                         class="button is-medium is-text"
-                                        href="https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)"
+                                        href="https://www.pokemon.com/us/pokedex/zapdos"
                                         target=_blank
-                                    >Eevee</a></p>
+                                    >Zapdos</a></p>
                             </article>
                         </div>
                         <div class="tile is-parent">
                             <article class="tile is-child notification is-info">
 
                                 <figure class="image is-4by3">
-                                    <img src="../assets/cat.jpg">
+                                    <img src="../assets/kitty.jpg">
                                 </figure>
                             </article>
                         </div>
@@ -50,9 +47,9 @@
 
                             <p class="subtitle"><a
                                     class="button is-medium is-text"
-                                    href="https://www.youtube.com/watch?v=vQObWW06VAM"
+                                    href="https://www.youtube.com/watch?v=-tJYN-eG1zk"
                                     target="_blank"
-                                >Apache (Jump On It)</a><br /> by Sugarhill Gang </p>
+                                >We Will Rock You</a><br /> by Queen </p>
 
                         </article>
                     </div>
@@ -62,14 +59,13 @@
                         <div class="content">
                             <p class="title">Things I Like</p>
                             <p class="subtitle ">Cats</p>
-                            <p class="subtitle"> Puzzles</p>
-                            <p class="subtitle"> Pink</p>
-                            <p class="subtitle"> Drawing</p>
+                            <p class="subtitle"> Dogs</p>
+                            <p class="subtitle"> Aqua</p>
+                            <p class="subtitle"> Playing</p>
                             <p class="subtitle"> Legos</p>
-                            <p class="subtitle"> Cars</p>
+                            <p class="subtitle"> Marbles</p>
                             <p class="subtitle"> Video Games</p>
                             <p class="subtitle"> Swings</p>
-                            <!-- <p class="subtitle"> Harris</p> -->
                             <div class="content">
 
                             </div>
@@ -136,7 +132,7 @@
         text-align: center;
     }
     .hero-body {
-        background-color: #b61173 !important;
+        background-color: #CC2D6F !important;
     }
     .title {
         color: #fff;
@@ -145,23 +141,24 @@
     }
 
     .is-success {
-        background-color: #ff9800;
+        background-color: #149F98;
     }
 
     .is-danger {
-        background-color: #ff8100;
+        background-color: #10292E;
     }
 
     .is-warning {
-        background-color: #ef6b30;
+        background-color: #4F203A;
     }
 
     .is-primary {
-        background-color: #e0335e;
+        background-color: #262626;
     }
 
     .is-info {
-        background-color: #b61173;
+        background-color:#ccc;
+        color:black;
     }
 
     .button {

@@ -19,9 +19,8 @@
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
                             <article class="tile is-child notification is-primary">
-                                <p class="title">Bio</p>
-                                <p class="subtitle">Ivan is a nine year old boy who loves Mario Kart, tacos and creating comics.</p>
-                                <!-- <p class="subtitle left"> He runs super-fast and never loses a fight with his brother.</p> -->
+                                <p class="subtitle left">Ivan is an eleven year old boy who loves 
+                                   Smash Bros, tacos and hoverboarding.</p>
 
                             </article>
                             <article class="tile is-child notification is-warning">
@@ -37,7 +36,7 @@
                             <article class="tile is-child notification is-info">
 
                                 <figure class="image ">
-                                    <img src="../assets/tacos.jpg">
+                                    <img src="../assets/bowser.jpg">
                                 </figure>
                             </article>
                         </div>
@@ -134,7 +133,7 @@
         text-align: center;
     }
     .hero-body {
-        background-color: #3e6477 !important;
+        background-color: #D79922 !important;
     }
     .title {
         color: #fff;
@@ -142,23 +141,23 @@
     }
 
     .is-success {
-        background-color: #579c87;
+        background-color:forestgreen;
     }
 
     .is-danger {
-        background-color: #a1c181;
+        background-color: #4056A1;
     }
 
     .is-warning {
-        background-color: #3e6477;
+        background-color: #F13C1F;
     }
 
     .is-primary {
-        background-color: #fe7f2d;
+        background-color: #262626;
     }
 
     .is-info {
-        background-color: #fcca46;
+        background-color: #C5CBE3;
     }
 
     .button {

@@ -18,17 +18,16 @@
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
                             <article class="tile is-child notification is-primary">
-                                <p class="title">Bio</p>
+                                <!-- <p class="title">Bio</p> -->
                                 <p class="subtitle left">
-                                    Ben lives in New Orleans where he works as a front-end web developer.
+                                    Ben lives in New Orleans with his wife and three boys where he works as a software developer.
                                     Before that, he did other things.
                                 </p>
                                 <p class="subtitle left">
 
                                     When not in front of a computer, he enjoys playing guitar and piano where no one can listen,
-                                    films with no plot and attempting to avoid existential anxiety where possible. It never is.
+                                    films with no plot and attempting to avoid existential anxiety where possible.<br /><br /> It never is.
                                 </p>
-                                <!-- <p class="subtitle left"> He runs super-fast and never loses a fight with his brother.</p> -->
 
                             </article>
                             <!-- <article class="tile is-child notification is-warning">
@@ -82,7 +81,7 @@
                                 >Robo The Fan</a></p>
                             <p class="subtitle "><a
                                     class='button is-text'
-                                    href='http://benfortenberry.com/vue/quiz/index.html#/'
+                                    href='http://benfortenberry.com/quiz/'
                                     target='_blank'
                                 >Quiz-O-Matic</a></p>
                             <p class="subtitle "><a
@@ -154,31 +153,29 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    @import url("https://fonts.googleapis.com/css?family=Russo+One");
-
+    @import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap");
     .hello {
         padding-top: 17px;
         background-color: #262626 !important;
         height: 100vh;
         min-height: 100vh;
-
         text-align: center;
     }
     .hero-body {
-        background-color: #282f3f !important;
+        background-color: #7395ae !important;
     }
     .title {
         color: #fff;
-        font-family: "Russo One", cursive;
+        font-family: 'IM Fell DW Pica', serif;
         /* letter-spacing: 3px; */
     }
 
     .is-success {
-        background-color: #282f3f;
+        background-color: #557a95;
     }
 
     .is-danger {
-        background-color: #b7a28f;
+        background-color: #635B51;
     }
 
     .is-warning {
@@ -186,11 +183,11 @@
     }
 
     .is-primary {
-        background-color: #454755;
+        background-color: #262626;
     }
 
     .is-info {
-        background-color: #fee6b8;
+        background-color: #5d5c61;
     }
 
     .button {

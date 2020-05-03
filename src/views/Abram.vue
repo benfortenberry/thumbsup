@@ -19,16 +19,9 @@
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
                             <article class="tile is-child notification is-primary">
-                                <p class="title">Bio</p>
-                                <!-- <p class="subtitle left">  -->
-                                <p class="subtitle ">Abram is a 10 year old boy who loves ice cream sandwiches, Digimon, dancing to music and collecting gems. </p>
-
-                                <!-- <p class="subtitle">He has fractured his ankle and pinky finger, collected almost all the Skylanders, is a member of pack 70 cub scouts and really, really loves Minecraft. </p> -->
-
-                                <!-- </p> -->
-                                <!-- <p class="subtitle left">Ivan is a nine year old boy who loves Mario Kart, fruit snacks and the song "Fast Cars" by the Buzzcocks.</p> -->
-                                <!-- <p class="subtitle left"> He runs super-fast and never loses a fight with his brother.</p> -->
-
+                                <p class="subtitle left">Abram is a 12 year old boy who loves 
+                                    ice cream sandwiches, 
+                                    Digimon, dancing to music and collecting gems. </p>
                             </article>
                             <article class="tile is-child notification is-warning">
                                 <p class="title">Favorite Game</p>
@@ -148,7 +141,7 @@
         text-align: center;
     }
     .hero-body {
-        background-color: #004466 !important;
+        background-color: #AD8174 !important;
     }
     .title {
         color: #fff;
@@ -157,23 +150,23 @@
     }
 
     .is-success {
-        background-color: #ff2105;
+        background-color: #A33327;
     }
 
     .is-danger {
-        background-color: #4fb99f;
+        background-color:#917164;
     }
 
     .is-warning {
-        background-color: #004466;
+        background-color: #689775;
     }
 
     .is-primary {
-        background-color: #016699;
+        background-color: #262626;
     }
 
     .is-info {
-        background-color: #99cccc;
+        background-color: #C7493A;
     }
 
     .button {
