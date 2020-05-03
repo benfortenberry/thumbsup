@@ -165,7 +165,7 @@
     }
 
     .is-primary {
-        background-color: #262626;
+        background-color: #eb6841  ;
     }
 
     .is-info {

@@ -141,7 +141,7 @@
         text-align: center;
     }
     .hero-body {
-        background-color: #AD8174 !important;
+        background-color: #4a4e4d   !important;
     }
     .title {
         color: #fff;
@@ -150,11 +150,11 @@
     }
 
     .is-success {
-        background-color: #A33327;
+        background-color: #0e9aa7  ;
     }
 
     .is-danger {
-        background-color:#917164;
+        background-color:#fe8a71  ;
     }
 
     .is-warning {
@@ -162,11 +162,11 @@
     }
 
     .is-primary {
-        background-color: #262626;
+        background-color: #3da4ab ;
     }
 
     .is-info {
-        background-color: #C7493A;
+        background-color: #f6cd61 ;
     }
 
     .button {

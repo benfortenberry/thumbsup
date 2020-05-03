@@ -132,7 +132,7 @@
         text-align: center;
     }
     .hero-body {
-        background-color: #CC2D6F !important;
+        background-color: rgb(0, 145, 145)   !important;
     }
     .title {
         color: #fff;
@@ -141,23 +141,23 @@
     }
 
     .is-success {
-        background-color: #149F98;
+        background-color: #f37735 ;
     }
 
     .is-danger {
-        background-color: #10292E;
+        background-color: #00aedb  ;
     }
 
     .is-warning {
-        background-color: #4F203A;
+        background-color: #d11141   ;
     }
 
     .is-primary {
-        background-color: #262626;
+        background-color: #00b159 ;
     }
 
     .is-info {
-        background-color:#ccc;
+        background-color:#ffc425  ;
         color:black;
     }
 
