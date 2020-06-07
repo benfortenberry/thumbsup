@@ -27,9 +27,9 @@
                                 <p class="title">Favorite Pokemon</p>
                                 <p class="subtitle"><a
                                         class="button is-medium is-text"
-                                        href="https://www.pokemon.com/us/pokedex/zapdos"
+                                        href="https://www.pokemon.com/us/pokedex/pikachu"
                                         target=_blank
-                                    >Zapdos</a></p>
+                                    >Pikachu</a></p>
                             </article>
                         </div>
                         <div class="tile is-parent">
