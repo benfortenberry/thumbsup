@@ -1,5 +1,5 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
+
 import Ben from './views/Ben.vue'
 import LastDesires from './views/LastDesires.vue'
 import ThumbsUp from './views/ThumbsUp.vue'
@@ -8,9 +8,10 @@ import Kolleen from './views/Kolleen.vue'
 import Ivan from './views/Ivan.vue'
 import Abram from './views/Abram.vue'
 import Main from './views/Main.vue'
-Vue.use(Router)
+// Vue.use(Router)
 
-export default new Router({
+const router = createRouter({
+  history: createWebHashHistory(),
   routes: [{
       path: '/',
       name: 'main',
@@ -60,3 +61,5 @@ export default new Router({
     }
   }
 })
+
+export default router;
