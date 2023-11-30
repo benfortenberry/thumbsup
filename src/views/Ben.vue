@@ -6,23 +6,22 @@
         <div class="tile is-vertical">
           <div class="tile is-parent is-vertical">
             <article class="tile is-child notification is-primary">
-              <p class="subtitle intro left">
-                Ben lives in New Orleans with his wife and three boys where he
+              <p class="subtitle intro left mt-5">
+                Ben lives in New Orleans with his wife and three sons where he
                 works as a software developer. Before that, he did other things.
               </p>
               <p class="subtitle left">
-                When not in front of a computer, he enjoys playing guitar and
-                piano where no one can listen, films with no plot and attempting
-                to avoid existential anxiety where possible.<br /><br />
+                When not in front of a computer, he enjoys playing guitar where
+                no one can listen, films with no plot and attempting to avoid
+                existential anxiety where possible.<br /><br />
                 It never is.
               </p>
             </article>
           </div>
         </div>
-        <div class="tile is-parent">
+        <div class="tile">
           <article class="tile is-child notification is-success">
             <div class="content">
-              <p class="title">Social</p>
 
               <p class="subtitle">
                 <a
@@ -32,8 +31,16 @@
                   >LinkedIn</a
                 >
               </p>
-              <br />
-              <p class="title">Things</p>
+
+              <p class="subtitle">
+                <a
+                  class="button is-text"
+                  href="http://benfortenberry.com/stories/tumbleweeds-usurper.html"
+                  target="_blank"
+                  >The Tumbleweed's Usurper</a
+                >
+              </p>
+
               <p class="subtitle">
                 <a
                   class="button is-text"
@@ -48,14 +55,6 @@
                   href="http://benfortenberry.com/quiz/"
                   target="_blank"
                   >Quiz-O-Matic</a
-                >
-              </p>
-              <p class="subtitle">
-                <a
-                  class="button is-text"
-                  href="http://benfortenberry.com/stories/tumbleweeds-usurper.html"
-                  target="_blank"
-                  >The Tumbleweed's Usurper</a
                 >
               </p>
 
@@ -77,25 +76,28 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
 .hello {
   padding-top: 17px;
-  background-color: #260303 !important;
-  height: 100vh;
+  background-color: #000 !important;
+  height: calc(100vh - calc(100vh - 100%));
   min-height: 100vh;
-  background-image: url(https://media.giphy.com/media/l0Exhl2a4hQlubRfy/giphy.gif);
+
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://media.giphy.com/media/3o6fJ6NjGOUFdxMYg0/giphy.gif);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 * {
   color: #fff;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Hedvig Letters Serif', serif;
 }
 
 .intro::first-letter {
   initial-letter: 2;
-  margin-right: 5px;
-  margin-top: -20px;
+  margin-right: 3px;
+  margin-top: -27px;
 }
 
 .is-success {
@@ -106,7 +108,16 @@ export default {
   background-color: transparent;
 }
 
-.button {
+.button,
+.subtitle {
   color: #fff;
+  font-size: 25px;
+
+  text-decoration: none;
+}
+
+.mt-5
+{
+  margin-top: 5px;
 }
 </style>
